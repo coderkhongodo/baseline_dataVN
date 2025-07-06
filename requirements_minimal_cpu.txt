@@ -1,0 +1,25 @@
+# MINIMAL CPU Requirements - NO UNDERTHESEA
+# Vietnamese Clickbait Classification với dependencies tối thiểu
+
+# Core ML libraries (bắt buộc)
+torch>=2.0.0
+transformers>=4.30.0
+tokenizers>=0.13.0
+
+# Data processing (bắt buộc)
+pandas>=1.5.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Utilities (bắt buộc)
+tqdm>=4.65.0
+datasets>=2.12.0
+
+# Training support (bắt buộc cho Trainer)
+accelerate>=0.26.0
+
+# Optional visualization 
+matplotlib>=3.7.0
+
+# NOTE: KHÔNG cần underthesea, pyvi, vncorenlp
+# Chỉ dùng built-in tokenizer của PhoBERT/XLM-RoBERTa 

@@ -1,0 +1,26 @@
+# Requirements for CPU Testing
+# Minimal dependencies for Vietnamese Clickbait Classification on CPU
+
+# Core ML libraries
+torch>=2.0.0
+transformers>=4.30.0
+tokenizers>=0.13.0
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Progress and utilities
+tqdm>=4.65.0
+datasets>=2.12.0
+
+# Vietnamese language support
+underthesea>=6.0.0  # Optional for text preprocessing
+pyvi>=0.1.1  # Optional for Vietnamese text processing
+
+# Development and testing
+accelerate>=0.20.0  # For distributed training support (optional)
+
+# Optional visualization (lightweight)
+matplotlib>=3.7.0 
