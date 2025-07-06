@@ -1,0 +1,83 @@
+# Virtual environments
+clickbait_env/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch model files and checkpoints
+*.pt
+*.pth
+*.safetensors
+checkpoint-*/
+model.safetensors
+optimizer.pt
+scheduler.pt
+
+# Large data files
+data/train/instances.jsonl
+data/val/instances.jsonl
+data/test/instances.jsonl
+data_original/
+
+# Model outputs and logs
+outputs/*/checkpoint-*/
+outputs/*/logs/
+logs/
+wandb/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large analysis files
+*.png
+*.jpg
+*.jpeg
+analysis_results/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build and development
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# API keys and secrets
+.env
+*.key
+config/secrets/ 
