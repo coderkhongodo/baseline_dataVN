@@ -1,0 +1,20 @@
+{
+  "config": {
+    "model_name": "vinai/phobert-base",
+    "max_length": 128,
+    "epochs": 3,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "data_dir": "data",
+    "use_subset": false,
+    "subset_size": 500,
+    "device": "auto",
+    "save_model": true,
+    "output_name": null
+  },
+  "accuracy": 0.7621621621621621,
+  "f1": 0.7642570606588598,
+  "training_time": "1:25:39.886490",
+  "model_parameters": 134999810,
+  "device": "cpu"
+}
